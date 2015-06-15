@@ -11,7 +11,7 @@ thetaSimul <- c()
 v2Simul <- c()
 
 # exploration
-for (i in 1:50000) {
+for (i in 1:5000) {
   pas <- rnorm(n=1, mean=0, sd=1)
   
   proposition_theta <- position_theta + pas
